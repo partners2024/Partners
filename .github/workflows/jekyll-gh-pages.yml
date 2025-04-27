@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="canonical" href="https://0903300465.online" />
+
+  <script type='text/javascript'>
+//<![CDATA[
+var uri = window.location.toString();
+if (uri.indexOf("%3D","%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("%3D%3D","%3D%3D") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("%3D%3D"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("&m=1","&m=1") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("&m=1"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+var uri = window.location.toString();
+if (uri.indexOf("?m=1","?m=1") > 0) {
+var clean_uri = uri.substring(0, uri.indexOf("?m=1"));
+window.history.replaceState({}, document.title, clean_uri);
+}
+//]]>
+</script>
+    <meta charset="UTF-8"/>
+    <title>Partners | เลขาแชท - ผู้ช่วย AI</title> 
+    <meta name="description" content="เลขาแชท AI ผู้ช่วยส่วนตัว อัจฉริยะ ตอบคำถาม เขียนเอกสาร แปลภาษา สรุปความ และอีกมากมาย เริ่มใช้งานได้ทันทีบน Blogger"/>
+    <meta name="keywords" content="chatbot, ai assistant, blogger, gemini, เลขา ai, ผู้ช่วยส่วนตัว, แชทบอท, แปลภาษา, เขียนเอกสาร, สรุปความ"/>
+    <meta name="author" content="Your Blog Name"/> 
+    <meta property="og:title" content="Partners | เลขาแชท - ผู้ช่วย AI"/>
+    <meta property="og:description" content="เลขาแชท AI ผู้ช่วยส่วนตัว อัจฉริยะ"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="YOUR_BLOG_URL"/> 
+    <meta property="og:image" content="YOUR_PREVIEW_IMAGE_URL"/> 
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Partners | เลขาแชท - ผู้ช่วย AI"/>
+    <meta name="twitter:description" content="เลขาแชท AI ผู้ช่วยส่วนตัว อัจฉริยะ"/>
+    <meta name="twitter:image" content="YOUR_PREVIEW_IMAGE_URL"/> 
+    
+    <!-- ปรับ viewport สำหรับ iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-title" content="เลขาแชท">
+
+    <link rel="icon" href="YOUR_FAVICON_URL" type="image/png"/> 
+    <link rel="apple-touch-icon" href="YOUR_APPLE_ICON_URL"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js' defer='defer'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoIFeuImageIconFjTtBXdHdL+mafGArVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer="defer"></script>
+
+  <style>/* --- BEGIN CSS for Assistant Chat --- */
+:root {
+    --primary-color: #1e40af;
+    --secondary-color: #db2777;
+    --bg-color: #f9fafb;
+    --chat-bg: #ffffff;
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --bot-message-bg: #e5e7eb;
+    --user-message-bg: #1e40af;
+    --border-color: #d1d5db;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --safe-area-inset-top: env(safe-area-inset-top, 0px);
+    --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+    --safe-area-inset-left: env(safe-area-inset-left, 0px);
+    --safe-area-inset-right: env(safe-area-inset-right, 0px);
+    --header-height: 56px;
+}
+
+[data-theme="dark"] {
+    --bg-color: #111827;
+    --chat-bg: #1f2937;
+    --text-primary: #f9fafb;
+    --text-secondary: #9ca3af;
+    --bot-message-bg: #374151;
+    --user-message-bg: #3b82f6;
+    --border-color: #4b5563;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Sarabun', sans-serif; 
+    -webkit-tap-highlight-color: transparent; 
+    -webkit-text-size-adjust: 100%; /* ป้องกันการ zoom อัตโนมัติบน iOS */
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#assistant-container {
+    width: 100%; 
+    height: 100vh; 
+    height: -webkit-fill-available; /* สำหรับ Safari */
+    height: fill-available;
+    display: flex; 
+    flex-direction: column; 
+    position: fixed; 
+    inset: 0;
+    padding-top: var(--safe-area-inset-top); 
+    padding-left: var(--safe-area-inset-left); 
+    padding-right: var(--safe-area-inset-right);
+    padding-bottom: var(--safe-area-inset-bottom);
+    z-index: 9999; 
+    background-color: var(--bg-color); 
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    -webkit-overflow-scrolling: touch; 
+    overflow: hidden;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0.75rem 1rem;
+    background-color: var(--chat-bg); 
+    border-bottom: 1px solid var(--border-color); 
+    box-shadow: var(--shadow-sm);
+    z-index: 10; 
+    transition: background-color 0.3s ease; 
+    flex-shrink: 0; 
+    height: var(--header-height);
+    position: sticky; 
+    top: var(--safe-area-inset-top);
+    padding-top: calc(0.75rem + var(--safe-area-inset-top));
+}
+.header-title { display: flex; align-items: center; gap: 0.5rem; flex-grow: 1; overflow: hidden; }
+.header-title h1 { font-size: 1.1rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: opacity 0.3s ease; margin-right: 0.5rem; }
+
+.header-loading {
+    width: 20px; height: 20px; background: transparent; border-radius: 50%; display: none; align-items: center; justify-content: center;
+    position: absolute; top: 50%; right: calc(1rem + 36px + 0.5rem + 36px + 0.75rem);
+    transform: translateY(-50%); z-index: 11;
+}
+.header-loading img { width: 100%; height: 100%; object-fit: contain; }
+.header-loading.active { display: flex; animation: fadeIn 0.3s ease; }
+
+.header-controls { display: flex; gap: 0.5rem; flex-shrink: 0; }
+.theme-toggle, .clear-chat-btn {
+    background: transparent; color: var(--text-secondary); border: 1px solid var(--border-color); padding: 0; border-radius: 0.5rem; cursor: pointer;
+    transition: all 0.2s ease; display: flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+}
+.theme-toggle:hover, .clear-chat-btn:hover { background-color: var(--bot-message-bg); color: var(--text-primary); border-color: var(--bot-message-bg); transform: scale(1.05); box-shadow: var(--shadow-sm); }
+.theme-toggle:active, .clear-chat-btn:active { transform: scale(0.95); }
+
+.chat-container {
+    flex: 1; 
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
+    padding: 1rem; 
+    background-color: var(--bg-color); 
+    scroll-behavior: smooth;
+    display: flex; 
+    flex-direction: column; 
+    transition: all 0.3s ease;
+    padding-bottom: calc(1rem + var(--safe-area-inset-bottom));
+}
+.chat-container.transition { opacity: 0; transform: translateX(15px); }
+.chat-container.transition-end { opacity: 1; transform: translateX(0); }
+
+.message {
+    display: flex; 
+    align-items: flex-end; 
+    margin-bottom: 1rem; 
+    opacity: 0; 
+    transform: translateY(15px);
+    animation: slideUpFade 0.3s ease forwards;
+    width: fit-content;
+    max-width: 85%;
+}
+.message.bot-message { align-self: flex-start; margin-right: auto; }
+.message.user-message { align-self: flex-end; flex-direction: row-reverse; margin-left: auto; }
+
+@keyframes slideUpFade { to { opacity: 1; transform: translateY(0); } }
+
+.avatar {
+    width: 32px; height: 32px; border-radius: 0.375rem; background: var(--bot-message-bg); display: flex; align-items: center; justify-content: center;
+    color: var(--text-primary); font-weight: 500; box-shadow: var(--shadow-sm); flex-shrink: 0; transition: transform 0.2s ease; margin: 0 0.5rem;
+}
+.avatar i { font-size: 0.9rem; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
+.user-message .avatar { background: var(--user-message-bg); color: white; }
+
+.message-bubble {
+    padding: 0.6rem 0.9rem; border-radius: 0.75rem; box-shadow: var(--shadow-sm); line-height: 1.5; position: relative;
+    white-space: pre-wrap; word-break: break-word; background-color: var(--bot-message-bg); color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease; max-width: 100%;
+}
+.user-message .message-bubble { background: var(--user-message-bg); color: white; border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; }
+.bot-message .message-bubble { border-top-left-radius: 0.25rem; border-bottom-left-radius: 0.25rem; }
+
+.message-bubble img { 
+    max-width: 100%; 
+    max-height: 300px;
+    border-radius: 0.5rem; 
+    margin-top: 0.5rem; 
+    display: block;
+    object-fit: contain;
+}
+.message-timestamp { font-size: 0.7rem; color: var(--text-secondary); margin-top: 0.3rem; text-align: right; transition: color 0.3s ease; display: block; opacity: 0.7; clear: both; }
+.user-message .message-timestamp { text-align: left; color: rgba(255, 255, 255, 0.7); }
+[data-theme="dark"] .user-message .message-timestamp { color: rgba(249, 250, 251, 0.7); }
+.bot-message .message-timestamp { text-align: right; }
+
+.typing-indicator { display: none; padding: 0.5rem 0.75rem; background-color: var(--bot-message-bg); border-radius: 0.75rem; width: fit-content; margin: 0 1rem 0.5rem auto; align-self: flex-start; box-shadow: var(--shadow-sm); animation: fadeIn 0.3s ease; transition: background-color 0.3s ease; }
+.typing-dots { display: flex; gap: 0.3rem; }
+.typing-dot { width: 6px; height: 6px; background-color: var(--text-secondary); border-radius: 50%; animation: typingBounce 1.2s infinite ease-in-out both; transition: background-color 0.3s ease; }
+.typing-dot:nth-child(1) { animation-delay: -0.3s; }
+.typing-dot:nth-child(2) { animation-delay: -0.15s; }
+@keyframes typingBounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1.0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.input-container {
+    padding: 0.5rem 0.75rem; 
+    background-color: var(--chat-bg); 
+    border-top: 1px solid var(--border-color); 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+    position: sticky; 
+    bottom: 0; 
+    padding-bottom: calc(0.5rem + var(--safe-area-inset-bottom)); 
+    transition: background-color 0.3s ease; 
+    z-index: 5; 
+    flex-shrink: 0;
+}
+
+.suggestion-buttons { display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 0.5rem; scrollbar-width: none; }
+.suggestion-buttons::-webkit-scrollbar { display: none; }
+.suggestion-btn, .grid-item {
+    background: var(--bot-message-bg); color: var(--text-primary); border: none; padding: 0.4rem 0.7rem; border-radius: 1rem; cursor: pointer;
+    transition: all 0.2s ease; font-size: 0.8rem; white-space: nowrap; display: flex; align-items: center; gap: 0.3rem; box-shadow: var(--shadow-sm);
+}
+.suggestion-btn i, .grid-item i { font-size: 0.9em; }
+.suggestion-btn:hover, .grid-item:hover { background: var(--primary-color); color: white; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.suggestion-btn:active, .grid-item:active { transform: scale(0.97); box-shadow: none; }
+
+.input-wrapper {
+    display: flex; gap: 0.3rem; background-color: var(--bg-color); border-radius: 1.5rem; padding: 0.3rem 0.4rem;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.07); align-items: center; transition: background-color 0.3s ease;
+}
+
+#menuButton { padding: 0.6rem; width: 36px; height: 36px; justify-content: center; flex-shrink: 0; }
+#menuButton i { margin: 0; font-size: 1rem; }
+
+.message-input {
+    flex: 1;
+    padding: 0.6rem 0.5rem; border: none; background: none; color: var(--text-primary); font-size: 0.95rem;
+    transition: color 0.3s ease; outline: none; min-width: 50px;
+    -webkit-appearance: none; /* ป้องกัน iOS จาก styling เริ่มต้น */
+    border-radius: 0; /* ป้องกัน iOS จาก styling เริ่มต้น */
+}
+.message-input::placeholder { color: var(--text-secondary); transition: color 0.3s ease; }
+
+.action-buttons { display: flex; gap: 0.3rem; align-items: center; flex-shrink: 0; }
+
+.action-btn, #commandsButton, #sendButton {
+    background: none; border: none; padding: 0.6rem; color: var(--text-secondary); cursor: pointer; border-radius: 50%;
+    transition: all 0.2s ease; display: flex; align-items: center; justify-content: center; width: 36px; height: 36px;
+}
+.action-btn i, #commandsButton i, #sendButton i { font-size: 1rem; }
+.action-btn:hover, #commandsButton:hover, #sendButton:hover { background: var(--bot-message-bg); color: var(--text-primary); transform: scale(1.05); }
+.action-btn:active, #commandsButton:active, #sendButton:active { transform: scale(0.95); }
+
+#sendButton { 
+    display: none; 
+    background-color: var(--primary-color);
+    color: white;
+}
+#sendButton:hover { background-color: #1d4ed8; color: white; }
+#sendButton:active { background-color: #1e40af; }
+
+#commandsButton {
+    background-color: var(--primary-color);
+    color: white;
+    position: relative; overflow: hidden;
+}
+#commandsButton:hover { background-color: #1d4ed8; color: white; }
+#commandsButton:active { background-color: #1e40af; }
+#commandsButton i { transition: opacity 0.2s ease, transform 0.2s ease; }
+
+#commandsButton.loading i { opacity: 0; transform: scale(0.5); }
+#commandsButton.loading::before {
+    content: ''; box-sizing: border-box; position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; margin-top: -9px; margin-left: -9px;
+    border: 2px solid rgba(255, 255, 255, 0.3); border-top-color: white; border-radius: 50%; animation: spin 0.8s linear infinite; opacity: 1;
+}
+[data-theme="dark"] #commandsButton.loading::before { border: 2px solid rgba(249, 250, 251, 0.3); border-top-color: var(--text-primary); }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.menu-grid, .commands-grid {
+    position: absolute; bottom: calc(100% + 0.5rem); left: 0.75rem; right: 0.75rem; display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 0.5rem; padding: 0.75rem; background-color: var(--chat-bg);
+    border-radius: 0.75rem; box-shadow: 0 -4px 10px rgba(0,0,0,0.1); opacity: 0; transform: translateY(10px) scale(0.98);
+    transform-origin: bottom center; visibility: hidden;
+    transition: opacity 0.25s ease-out, transform 0.25s ease-out, visibility 0s linear 0.25s, background-color 0.3s ease; z-index: 4;
+}
+.menu-grid.open, .commands-grid.open {
+    opacity: 1; transform: translateY(0) scale(1); visibility: visible;
+    transition: opacity 0.25s ease-out, transform 0.25s ease-out, visibility 0s linear 0s, background-color 0.3s ease;
+}
+.menu-grid .grid-item, .commands-grid .grid-item { padding: 0.5rem 0.6rem; font-size: 0.75rem; }
+
+.modal-overlay { position: fixed; inset: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 999; display: none; opacity: 0; transition: opacity 0.3s ease; }
+.modal-overlay.open { display: block; opacity: 1; }
+.modal {
+    position: fixed; top: 0; left: 0; width: 100%; max-width: 500px; height: 100dvh; height: -webkit-fill-available; background-color: var(--chat-bg);
+    box-shadow: var(--shadow-md); z-index: 1000; transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, background-color 0.3s ease;
+    transform: translateX(-100%); display: flex; flex-direction: column; opacity: 0; padding-top: var(--safe-area-inset-top);
+    padding-left: var(--safe-area-inset-left); padding-right: var(--safe-area-inset-right);
+}
+.modal.open { transform: translateX(0); opacity: 1; }
+.modal.fullscreen { max-width: 100%; padding: 0; padding-top: var(--safe-area-inset-top); }
+.modal-content { flex-grow: 1; padding: 1rem; overflow-y: auto; -webkit-overflow-scrolling: touch; white-space: pre-wrap; word-break: break-word; transition: opacity 0.3s ease; }
+.modal-content iframe { width: 100%; height: 100%; border: none; }
+.modal-buttons {
+    display: flex; gap: 0.75rem; padding: 1rem; padding-bottom: calc(1rem + var(--safe-area-inset-bottom)); border-top: 1px solid var(--border-color);
+    background-color: var(--chat-bg); transition: background-color 0.3s ease; flex-shrink: 0; position: sticky; bottom: 0; z-index: 1001;
+}
+.modal-btn, .generate-image-btn {
+    background: var(--primary-color); color: white; border: none; padding: 0.7rem 1.2rem; border-radius: 0.75rem; cursor: pointer;
+    transition: all 0.2s ease; font-weight: 500; flex-grow: 1; text-align: center; font-size: 0.9rem;
+}
+.generate-image-btn { background: var(--secondary-color); }
+.modal-btn:hover, .generate-image-btn:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+.modal-btn:active, .generate-image-btn:active { transform: scale(0.98); box-shadow: none; }
+
+.toast {
+    position: fixed; top: calc(var(--header-height) + var(--safe-area-inset-top) + 0.75rem); right: 1rem; left: auto;
+    transform: translateY(-150%); background: rgba(17, 24, 39, 0.9); color: white; padding: 0.6rem 1rem; border-radius: 0.5rem;
+    box-shadow: var(--shadow-md); opacity: 0; transition: opacity 0.3s ease, transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1001; font-size: 0.85rem; max-width: calc(100% - 2rem); text-align: center;
+}
+.toast.show { opacity: 1; transform: translateY(0); }
+[data-theme="dark"] .toast { background: rgba(249, 250, 251, 0.9); color: #111827; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-title h1 { font-size: 1rem; }
+    .message { max-width: 90%; }
+    .message-bubble { font-size: 0.9rem; padding: 0.55rem 0.8rem; }
+    .input-container { padding: 0.4rem 0.5rem; padding-bottom: calc(0.4rem + var(--safe-area-inset-bottom)); }
+    .suggestion-btn, .grid-item { padding: 0.35rem 0.6rem; font-size: 0.75rem; }
+    .message-input { font-size: 0.9rem; }
+    .action-btn, #commandsButton, #menuButton, #sendButton { width: 34px; height: 34px; padding: 0.5rem; }
+    .action-btn i, #commandsButton i, #menuButton i, #sendButton i { font-size: 0.9rem; }
+    .header-loading { right: calc(1rem + 36px + 0.5rem + 36px + 1rem); }
+    .toast { top: calc(var(--header-height) + var(--safe-area-inset-top) + 0.5rem); }
+    .menu-grid, .commands-grid { left: 0.5rem; right: 0.5rem; }
+}
+@media (max-width: 480px) {
+    .header-title h1 { font-size: 0.95rem; }
+    .message { max-width: 92%; }
+    .avatar { width: 30px; height: 30px; }
+    .message-bubble { font-size: 0.85rem; }
+    .suggestion-btn, .grid-item { padding: 0.3rem 0.5rem; font-size: 0.7rem; }
+    .menu-grid, .commands-grid { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 0.4rem; padding: 0.5rem; }
+    .message-input { font-size: 0.85rem; }
+    .action-btn, #commandsButton, #menuButton, #sendButton { width: 32px; height: 32px; padding: 0.4rem; }
+    .action-btn i, #commandsButton i, #menuButton i, #sendButton i { font-size: 0.85rem; }
+    .toast { width: calc(100% - 2rem); right: 1rem; }
+    .header-loading { display: none; }
+}
+#commandsButton {
+      background-color: var(--primary-color);
+      color: white;
+      position: relative; 
+      overflow: hidden;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+    }
+    
+    #commandsButton img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      border-radius: 50%;
+      background-color: white;
+      padding: 2px;
+    }
+    
+/* --- END CSS --- */
+  </style>
+</head>
+<body>
+  <div id='assistant-container'>
+    <header class='header'>
+        <div class='header-title'>
+            <div class='header-loading' id='headerLoading'>
+                <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEwyCJU09wS_OYjr8XnYqBIsFICOu9U6Jc9fLTzihwgA6j3zRYpulMDdWpmXE8sdoQwvikQydtoNBpCdCEDS12dOroptFO9fcP7pjbe3cT8eklDPjf4I4wCHZd9Y2CqwLthsHg5BiipChiGz4dkcZO3CkSx8aXFRfc61lRGKY2a3zW43ZGTr4e08v9Tg/s1600/3EEAC2AA-D625-4C66-B813-393FFFA03793.gif' alt='Loading'/>
+            </div>
+            <h1 id='headerTitle'>Partners | เลขาแชท1</h1>
+        </div>
+        <div class='header-controls'>
+            <button class='theme-toggle' aria-label='สลับโหมดสี'><i class='fas fa-moon'></i></button>
+            <button class='clear-chat-btn' aria-label='ล้างแชท'><i class='fas fa-trash'></i></button>
+        </div>
+    </header>
+
+    <div class='chat-container' id='chatContainer'></div>
+
+    <div class='input-container'>
+        <div class='typing-indicator' id='typingIndicator'>
+            <div class='typing-dots'><div class='typing-dot'></div><div class='typing-dot'></div><div class='typing-dot'></div></div>
+        </div>
+
+         <div class='menu-grid' id='menuGrid'>
+            <button class='grid-item' id='homeButton'><i class='fas fa-home'></i> หน้าแรก</button>
+            <button class='grid-item' id='articleButton'><i class='fas fa-newspaper'></i> บทความ</button>
+            <button class='grid-item' id='generateDocButton'><i class='fas fa-file-download'></i> พรีวิว</button>
+            <button class='grid-item' id='copyButton'><i class='fas fa-copy'></i> คัดลอก</button>
+            <button class='grid-item' id='pasteButton'><i class='fas fa-paste'></i> วาง</button>
+            <button class='grid-item' id='clearAllButton'><i class='fas fa-trash-alt'></i> ล้างทั้งหมด</button>
+        </div>
+
+        <div class='commands-grid' id='commandsGrid'>
+            <button class='grid-item suggestion-btn' data-command='เขียนจดหมาย'><i class='fas fa-envelope'></i> เขียนจดหมาย</button>
+            <button class='grid-item suggestion-btn' data-command='แปลข้อความ'><i class='fas fa-language'></i> แปลข้อความ</button>
+            <button class='grid-item suggestion-btn' data-command='สรุปเอกสาร'><i class='fas fa-file-alt'></i> สรุปเอกสาร</button>
+            <button class='grid-item suggestion-btn' data-command='ตั้งเวลา'><i class='fas fa-clock'></i> ตั้งเวลา</button>
+        </div>
+
+        <div class='input-wrapper'>
+            <button class='suggestion-btn' id='menuButton' aria-label='เมนู'><i class='fas fa-bars'></i></button>
+
+            <input type='text' class='message-input' id='messageInput' placeholder='พิมพ์ข้อความ...' aria-label='พิมพ์ข้อความ'/>
+
+            <div class='action-buttons'>
+                <input type='file' id='fileInput' accept='image/*' style='display: none;'/>
+                <button class='action-btn' id='attachButton' aria-label='แนบไฟล์'><i class='fas fa-paperclip'></i></button>
+                <button class='action-btn' id='micButton' aria-label='บันทึกเสียง'><i class='fas fa-microphone'></i></button>
+                   <button class='action-btn' id='commandsButton' aria-label='คำสั่งใช้งาน'>
+      <img src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEwyCJU09wS_OYjr8XnYqBIsFICOu9U6Jc9fLTzihwgA6j3zRYpulMDdWpmXE8sdoQwvikQydtoNBpCdCEDS12dOroptFO9fcP7pjbe3cT8eklDPjf4I4wCHZd9Y2CqwLthsHg5BiipChiGz4dkcZO3CkSx8aXFRfc61lRGKY2a3zW43ZGTr4e08v9Tg/s1600/3EEAC2AA-D625-4C66-B813-393FFFA03793.gif' alt='Commands'/>
+    </button>
+                <button class='action-btn' id='sendButton' aria-label='ส่งข้อความ'><i class='fas fa-paper-plane'></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class='modal-overlay' id='modalOverlay'></div>
+    <div class='modal' id='docModal'>
+        <div class='modal-content' id='docContent'></div>
+        <div class='modal-buttons'>
+            <button class='generate-image-btn' id='generateImageButton'><i class='fas fa-camera'></i> สร้างรูป</button>
+            <button class='modal-btn' id='closeDocModal'>ปิด</button>
+        </div>
+    </div>
+    <div class='modal' id='moreInfoModal'>
+        <div class='modal-content'>
+            <iframe src="https://21222423624825102612.blogspot.com/?m=0" style='width:100%;height:100%;border:none' title="More Info"></iframe>
+        </div>
+        <div class='modal-buttons'><button class='modal-btn' id='closeMoreInfoModal'>ปิด</button></div>
+    </div>
+    <div class='modal' id='mainHomeModal'>
+         <div class='modal-content'><p>เนื้อหาหน้าแรก (HTML)</p></div>
+         <div class='modal-buttons'><button class='modal-btn' id='closeHomeModal'>ปิด</button></div>
+    </div>
+    <div class='modal fullscreen' id='articleModal'>
+        <div class='modal-content'>
+            <iframe src="https://511slowbar.blogspot.com/?m=1" style='width:100%;height:100%;border:none' allow='fullscreen' title="Articles"></iframe>
+        </div>
+        <div class='modal-buttons'><button class='modal-btn' id='closeArticleModal'>ปิด</button></div>
+    </div>
+    <div class='modal' id='commandModal'>
+         <div class='modal-content'><p>เนื้อหาคำสั่ง (HTML)</p></div>
+         <div class='modal-buttons'><button class='modal-btn' id='closeCommandModal'>ปิด</button></div>
+     </div>
+     <div class='modal' id='sendDocModal'>
+         <div class='modal-content'><p>เนื้อหาส่งเอกสาร (HTML)</p></div>
+         <div class='modal-buttons'><button class='modal-btn' id='closeSendDocModal'>ปิด</button></div>
+     </div>
+    <div class='toast' id='toast'></div>
+</div>
+<script>
+  //<![CDATA[
+try { // Add a top-level try...catch for basic script error detection
+
+    // --- Constants ---
+    // !!! SECURITY WARNING !!!
+    // Exposing API keys directly in client-side code is a significant security risk.
+    // Anyone can view your key and potentially misuse it, leading to unexpected charges
+    // or service suspension. Consider using a backend proxy or Cloud Function for API calls.
+    const API_KEY = 'AIzaSyBT1NSBUUc9BvWTIWZIkNBfqIjJV-j8274'; // <<< API KEY FROM ORIGINAL FILE (RISKY!)
+    const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
+    const VOICE_START_SOUND_URL = 'https://firebasestorage.googleapis.com/v0/b/partners-ai.appspot.com/o/%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C%20002.m4a?alt=media&token=1724defc-7c10-48e7-adcb-dd17ada74914';
+    const MAX_CHAT_PAGES = 5;
+    const API_RETRIES = 2;
+    const BOT_ICON_URL = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJHeYA6kiGhs87izMt9n6dFiDGn5ZTfDbOXxWHkjWD3un3w13nLsplGQq1VXaCMLpsx91Bdf8HW7jliY20gm5AtPD7dw5s9lMSf6wRoSIZsMpB2RIN9sVv9erKkRHq4r4IYIyLwjjNRKb2ww28ESDmfziRQcUG2imy3Pmx2raaFP0Nq-8xnC6Fm9koVI/s1600/avatar-1.png';
+    const CHAT_HISTORY_LIMIT = 30; // Reduced history limit
+    const LOADING_GIF_URL = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEwyCJU09wS_OYjr8XnYqBIsFICOu9U6Jc9fLTzihwgA6j3zRYpulMDdWpmXE8sdoQwvikQydtoNBpCdCEDS12dOroptFO9fcP7pjbe3cT8eklDPjf4I4wCHZd9Y2CqwLthsHg5BiipChiGz4dkcZO3CkSx8aXFRfc61lRGKY2a3zW43ZGTr4e08v9Tg/s1600/3EEAC2AA-D625-4C66-B813-393FFFA03793.gif';
+
+    // Wait for the DOM to be fully loaded
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // --- DOM Elements ---
+        const getEl = (id) => document.getElementById(id); // Helper function
+        const chatContainer = getEl('chatContainer');
+        const messageInput = getEl('messageInput');
+        const sendButton = getEl('sendButton');
+        const clearChatButton = document.querySelector('.clear-chat-btn');
+        const themeToggle = document.querySelector('.theme-toggle');
+        const typingIndicator = getEl('typingIndicator');
+        const modalOverlay = getEl('modalOverlay');
+        const docModal = getEl('docModal');
+        const closeDocModal = getEl('closeDocModal');
+        const docContent = getEl('docContent');
+        const generateImageButton = getEl('generateImageButton');
+        const fileInput = getEl('fileInput');
+        const attachButton = getEl('attachButton');
+        const micButton = getEl('micButton');
+        const menuButton = getEl('menuButton');
+        const commandsButton = getEl('commandsButton');
+        const menuGrid = getEl('menuGrid');
+        const commandsGrid = getEl('commandsGrid');
+        const headerTitle = getEl('headerTitle');
+        const headerLoading = getEl('headerLoading');
+        const toast = getEl('toast');
+        const moreInfoModal = getEl('moreInfoModal');
+        const closeMoreInfoModal = getEl('closeMoreInfoModal');
+        const mainHomeModal = getEl('mainHomeModal');
+        const closeHomeModal = getEl('closeHomeModal');
+        const articleModal = getEl('articleModal');
+        const closeArticleModal = getEl('closeArticleModal');
+        const commandModal = getEl('commandModal');
+        const closeCommandModal = getEl('closeCommandModal');
+        const sendDocModal = getEl('sendDocModal');
+        const closeSendDocModal = getEl('closeSendDocModal');
+        const homeButton = getEl('homeButton');
+        const articleButton = getEl('articleButton');
+        const generateDocButton = getEl('generateDocButton');
+        const copyButton = getEl('copyButton');
+        const pasteButton = getEl('pasteButton');
+        const clearAllButton = getEl('clearAllButton');
+
+        // --- State Variables ---
+        let latestBotResponse = '';
+        let isSubmitting = false;
+        let currentChatSelection = 0;
+        let chatHistories = Array(MAX_CHAT_PAGES).fill().map(() => []);
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let recognition = null;
+        let isRecording = false;
+        let toastTimeout = null;
+
+        // --- Initialization ---
+        function initApp() {
+            // Basic check if essential elements exist
+            if (!chatContainer || !messageInput || !commandsButton || !menuButton) {
+                console.error("Essential UI elements not found. Chat cannot initialize.");
+                alert("เกิดข้อผิดพลาดในการโหลดองค์ประกอบหน้าแชท");
+                return;
+            }
+            checkApiKey();
+            loadTheme();
+            initChat();
+            initSpeechRecognition();
+            attachEventListeners();
+            console.log("Chat Assistant Initialized");
+        }
+
+        function checkApiKey() {
+            // Simple check if the key looks like the placeholder or is empty
+            if (!API_KEY || API_KEY === 'YOUR_GEMINI_API_KEY') {
+                console.warn("API Key is not set or is a placeholder.");
+                showToast("ข้อผิดพลาด: ไม่ได้ตั้งค่า API Key", false); // Persistent warning
+            }
+        }
+
+        function loadTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            if (themeToggle) {
+                themeToggle.innerHTML = `<i class="fas fa-${savedTheme === 'dark' ? 'sun' : 'moon'}"></i>`;
+                themeToggle.setAttribute('aria-label', savedTheme === 'dark' ? 'สลับโหมดสว่าง' : 'สลับโหมดมืด');
+            }
+        }
+
+        // --- Chat History & Display ---
+        function updateHeaderTitle() {
+            if (headerTitle) { headerTitle.textContent = `Partners | เลขาแชท${currentChatSelection + 1}`; }
+        }
+
+        function loadChatHistory(index) {
+            try {
+                const historyKey = `assistantChatHistory_${index}`;
+                const history = localStorage.getItem(historyKey);
+                return history ? JSON.parse(history) : [];
+            } catch (e) { 
+                console.error("Error loading chat history:", e); 
+                showToast("โหลดประวัติแชทล้มเหลว"); 
+                return []; 
+            }
+        }
+
+        function saveChatHistory(index, history) {
+            try {
+                const historyKey = `assistantChatHistory_${index}`;
+                const limitedHistory = history.slice(-CHAT_HISTORY_LIMIT);
+                localStorage.setItem(historyKey, JSON.stringify(limitedHistory));
+            } catch (e) {
+                console.error("Error saving chat history:", e);
+                if (e.name === 'QuotaExceededError') { 
+                    showToast("พื้นที่เต็ม บันทึกประวัติไม่ได้"); 
+                } else { 
+                    showToast("บันทึกประวัติแชทล้มเหลว"); 
+                }
+            }
+        }
+
+        function createMessageElement(content, isUser = false) {
+            const timestamp = new Date().toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            
+            const avatarContent = isUser ? `<i class='fas fa-user'></i>` : `<img src="${BOT_ICON_URL}" alt="Bot">`;
+            
+            // Check if content is an image (base64 or URL)
+            let displayContent = content;
+            if (typeof content === 'string' && (content.startsWith('data:image/') || content.match(/\.(jpeg|jpg|gif|png)$/i))) {
+                displayContent = `<img src="${content}" alt="Uploaded Image" style="max-width:100%; max-height:300px; border-radius:0.5rem; margin-top:0.5rem; display:block; object-fit:contain;">`;
+            } else {
+                // Sanitize and convert markdown for text content
+                const sanitizedContent = (content || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+                displayContent = convertSimpleMarkdownToHTML(sanitizedContent);
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="avatar">${avatarContent}</div>
+                <div class="message-bubble">
+                    ${displayContent}
+                    <div class="message-timestamp">${timestamp}</div>
+                </div>
+            `;
+            return messageDiv;
+        }
+
+        function addMessage(content, isUser = false, save = true) {
+            if (!content || !chatContainer) { 
+                console.error("Cannot add message: No content or container."); 
+                return; 
+            }
+            
+            const messageElement = createMessageElement(content, isUser);
+            chatContainer.appendChild(messageElement);
+            chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: 'smooth' });
+            
+            if (save) { 
+                chatHistories[currentChatSelection].push({ content, isUser }); 
+                saveChatHistory(currentChatSelection, chatHistories[currentChatSelection]); 
+            }
+            
+            if (!isUser) { 
+                latestBotResponse = content; 
+            }
+        }
+
+        function showTypingIndicator() {
+            if (typingIndicator) { 
+                typingIndicator.style.display = 'flex'; 
+                if (chatContainer) chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: 'smooth' }); 
+            }
+        }
+
+        function hideTypingIndicator() {
+            if (typingIndicator) typingIndicator.style.display = 'none';
+        }
+
+        // --- Welcome Message ---
+        function initWelcomeMessages() {
+        if (currentChatSelection === 0 && chatHistories[currentChatSelection].length === 0) {
+            setTimeout(() => {
+                addMessage("ยินดีต้อนรับค่ะนายท่าน มีรับใช้คะ", false, false);
+            }, 300);
+        }
+    }
+
+        function initChat() {
+        if (!chatContainer) return;
+        
+        chatContainer.classList.add('transition');
+        chatHistories[currentChatSelection] = loadChatHistory(currentChatSelection);
+        chatContainer.innerHTML = '';
+        
+        if (chatHistories[currentChatSelection].length > 0) {
+            chatHistories[currentChatSelection].forEach(msg => {
+                const messageElement = createMessageElement(msg.content, msg.isUser);
+                messageElement.style.opacity = 1;
+                messageElement.style.transform = 'translateY(0)';
+                messageElement.style.animation = 'none';
+                chatContainer.appendChild(messageElement);
+            });
+            
+            const lastBotMsg = [...chatHistories[currentChatSelection]].reverse().find(msg => !msg.isUser);
+            latestBotResponse = lastBotMsg ? lastBotMsg.content : '';
+            requestAnimationFrame(() => { chatContainer.scrollTop = chatContainer.scrollHeight; });
+        } else {
+            // แสดงข้อความต้อนรับเฉพาะแชทชั่น 1
+            if (currentChatSelection === 0) {
+                initWelcomeMessages();
+            }
+            latestBotResponse = '';
+        }
+        
+        updateHeaderTitle();
+        requestAnimationFrame(() => { 
+            chatContainer.classList.remove('transition'); 
+            chatContainer.classList.add('transition-end'); 
+        });
+    }
+
+        // --- API Interaction ---
+        async function getBotResponse(userMessage, retries = API_RETRIES) {
+            if (!userMessage || isSubmitting) return;
+            if (!API_KEY || API_KEY === 'YOUR_GEMINI_API_KEY') { 
+                addMessage("ข้อผิดพลาด: ไม่ได้ตั้งค่า API Key", false); 
+                return; 
+            }
+
+            console.log("getBotResponse initiated...");
+            showTypingIndicator();
+            isSubmitting = true;
+            if (headerLoading) headerLoading.classList.add('active');
+            if (commandsButton) commandsButton.classList.add('loading');
+            if (commandsButton) commandsButton.disabled = true;
+            if (menuButton) menuButton.disabled = true;
+            if (messageInput) messageInput.disabled = true;
+
+            const history = chatHistories[currentChatSelection];
+            const geminiHistory = history.map(msg => ({ 
+                role: msg.isUser ? "user" : "model", 
+                parts: [{ text: msg.content || "" }] 
+            })).slice(-CHAT_HISTORY_LIMIT);
+            
+            const instructionPrefix = `ระบบ: (คุณคือเลขาผู้ช่วยส่วนตัว...) คำสั่ง/คำถาม: `;
+            const finalContents = [...geminiHistory, { 
+                role: "user", 
+                parts: [{ text: `${instructionPrefix}${userMessage}` }] 
+            }];
+            
+            const requestBody = { contents: finalContents };
+
+            try {
+                console.log("Calling Gemini API with key:", API_KEY.substring(0, 8) + "...");
+                const response = await fetch(`${GEMINI_API_URL}?key=${API_KEY}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+                console.log("Gemini Response Status:", response.status);
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    let errorJson = null;
+                    try { 
+                        errorJson = JSON.parse(errorText); 
+                    } catch (e) { 
+                        console.log("Response not JSON:", errorText); 
+                    }
+                    console.error('Gemini API Error:', response.status, errorJson || errorText);
+
+                    if (response.status === 400 && errorJson?.error?.message?.includes("API key not valid")) { 
+                        addMessage("ข้อผิดพลาด: API Key ไม่ถูกต้อง", false); 
+                        retries = 0; 
+                    }
+                    else if (response.status === 429) { 
+                        addMessage("API Usage Limit Reached. Please try again later.", false); 
+                        retries = 0; 
+                    }
+                    else if (response.status >= 500) { 
+                        addMessage("Server เกิดข้อผิดพลาด กรุณาลองใหม่ (5xx)", false); 
+                    }
+                    else { 
+                        addMessage(`เกิดข้อผิดพลาด (${response.status})`, false); 
+                    }
+
+                    if (retries > 0) {
+                        console.warn(`Retrying API call... (${retries} attempts left)`);
+                        await new Promise(resolve => setTimeout(resolve, (API_RETRIES - retries + 1) * 1500));
+                        return await getBotResponse(userMessage, retries - 1);
+                    } else {
+                        if (response.status !== 400 || !errorJson?.error?.message?.includes("API key not valid")) {
+                            throw new Error(`Gemini API Error after retries (${response.status}): ${errorText}`);
+                        }
+                        return;
+                    }
+                }
+
+                const data = await response.json();
+                console.log("Gemini Response Data:", data);
+
+                let botResponseText = "ขออภัยค่ะ ไม่สามารถประมวลผลได้";
+                if (data.candidates && data.candidates.length > 0 && data.candidates[0].content?.parts?.length > 0) {
+                    botResponseText = data.candidates[0].content.parts[0].text.replace(/\*\*/g, '');
+                } else if (data.promptFeedback?.blockReason) {
+                    console.warn(`Gemini blocked: ${data.promptFeedback.blockReason}`);
+                    botResponseText = `คำขอถูกบล็อก: ${data.promptFeedback.blockReason}`;
+                } else { 
+                    console.warn("Unexpected Gemini response format:", data); 
+                }
+
+                addMessage(botResponseText, false);
+
+            } catch (error) {
+                console.error('Error in getBotResponse fetch/process:', error);
+                if (!error.message?.startsWith("Gemini API Error after retries")) {
+                    addMessage("ขอโทษครับ เกิดข้อผิดพลาดในการติดต่อ AI", false);
+                }
+            } finally {
+                console.log("getBotResponse finally block.");
+                hideTypingIndicator();
+                if (headerLoading) headerLoading.classList.remove('active');
+                if (commandsButton) commandsButton.classList.remove('loading');
+                if (commandsButton) commandsButton.disabled = false;
+                if (menuButton) menuButton.disabled = false;
+                if (messageInput) messageInput.disabled = false;
+                isSubmitting = false;
+                if (messageInput && !isRecording) messageInput.focus();
+            }
+        }
+
+        // --- OCR ---
+        async function performOCR(imageUrl) {
+            if (typeof Tesseract === 'undefined') { 
+                showToast("โหลด OCR ไม่สำเร็จ"); 
+                return; 
+            }
+            
+            showToast("กำลังอ่านรูป...", false); 
+            showTypingIndicator();
+            
+            try {
+                const worker = await Tesseract.createWorker('tha+eng', 1, { 
+                    logger: m => console.log(`OCR: ${m.status} (${(m.progress * 100).toFixed(0)}%)`) 
+                });
+                
+                const { data: { text } } = await worker.recognize(imageUrl); 
+                await worker.terminate();
+                
+                let cleanedText = text.replace(/\s+/g, ' ').trim();
+                if (cleanedText) { 
+                    addMessage(`ข้อความจากรูป:\n"${cleanedText}"`, false); 
+                } else { 
+                    addMessage("ไม่พบข้อความในรูป", false); 
+                }
+                
+                showToast("อ่านรูปสำเร็จแล้ว");
+            } catch (error) { 
+                console.error('OCR Error:', error); 
+                addMessage("เกิดข้อผิดพลาด OCR", false); 
+                showToast("เกิดข้อผิดพลาด OCR"); 
+            } finally { 
+                hideTypingIndicator(); 
+            }
+        }
+
+        // --- User Actions ---
+        function handleSendMessage() {
+            if (!messageInput || isSubmitting) return;
+            
+            const message = messageInput.value.trim();
+            if (message) { 
+                addMessage(message, true); 
+                messageInput.value = ''; 
+                hideGrids(); 
+                getBotResponse(message); 
+                toggleSendButton(false); // Hide send button after sending
+            }
+        }
+
+        function clearChat() {
+            if (confirm("ล้างแชทหน้านี้?")) { 
+                if(chatContainer) chatContainer.innerHTML = ''; 
+                chatHistories[currentChatSelection] = []; 
+                saveChatHistory(currentChatSelection, []); 
+                latestBotResponse = ''; 
+                initWelcomeMessages(); 
+                showToast("ล้างแชทแล้ว"); 
+            }
+        }
+
+        function clearAllAndRefresh() {
+            if (confirm("คำเตือน! ล้างข้อมูลแชท *ทั้งหมด* และรีเฟรช?")) {
+                try { 
+                    let c = 0; 
+                    for (let i = 0; i < MAX_CHAT_PAGES; i++) {
+                        const k = `assistantChatHistory_${i}`; 
+                        if(localStorage.getItem(k)) {
+                            localStorage.removeItem(k); 
+                            c++; 
+                        }
+                    } 
+                    localStorage.removeItem('theme'); 
+                    showToast(`ล้าง ${c} แชทแล้ว กำลังรีเฟรช...`); 
+                    setTimeout(() => window.location.reload(), 1500); 
+                } catch(e) { 
+                    console.error("Clear storage error:", e); 
+                    showToast("ล้างข้อมูลล้มเหลว"); 
+                }
+            }
+        }
+
+        // --- Modal Handling ---
+        function openModal(modal) {
+            if (!modalOverlay || !modal) return; 
+            
+            closeAllModals(); 
+            modalOverlay.style.display = 'block'; 
+            
+            requestAnimationFrame(() => { 
+                modalOverlay.classList.add('open'); 
+                modal.classList.add('open'); 
+                document.body.style.overflow = 'hidden'; 
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modalOverlay || !modal || !modal.classList.contains('open')) return; 
+            
+            modalOverlay.classList.remove('open'); 
+            modal.classList.remove('open');
+            
+            modal.addEventListener('transitionend', () => { 
+                if (!modal.classList.contains('open') && !document.querySelector('.modal.open')) { 
+                    modalOverlay.style.display = 'none'; 
+                    document.body.style.overflow = ''; 
+                } 
+            }, { once: true });
+        }
+
+        function closeAllModals() {
+            let closed = false; 
+            [docModal, moreInfoModal, mainHomeModal, articleModal, commandModal, sendDocModal].forEach(m => { 
+                if (m?.classList.contains('open')) { 
+                    closeModal(m); 
+                    closed = true; 
+                } 
+            }); 
+            return closed;
+        }
+
+        // --- Utility Functions ---
+        function showToast(message, autoHide = true, duration = 3000) {
+            if (!toast) return; 
+            
+            clearTimeout(toastTimeout); 
+            toast.textContent = message; 
+            toast.classList.add('show');
+            
+            if (autoHide) { 
+                toastTimeout = setTimeout(() => { 
+                    toast.classList.remove('show'); 
+                }, duration); 
+            }
+        }
+
+        function handleCopyText() {
+            const textToCopy = latestBotResponse || docContent?.innerText; 
+            if (textToCopy) { 
+                navigator.clipboard.writeText(textToCopy)
+                    .then(() => showToast('คัดลอกแล้ว!'))
+                    .catch(err => showToast('คัดลอกล้มเหลว')); 
+            } else { 
+                showToast('ไม่มีข้อความให้คัดลอก'); 
+            } 
+            
+            hideGrids();
+        }
+
+        async function handlePasteText() {
+            if (!navigator.clipboard?.readText) { 
+                showToast('วางข้อความไม่ได้'); 
+                return; 
+            } 
+            
+            try { 
+                const text = await navigator.clipboard.readText(); 
+                if (text && messageInput) { 
+                    messageInput.value += (messageInput.value ? ' ' : '') + text; 
+                    messageInput.focus(); 
+                    toggleSendButton(text.trim().length > 0); // Toggle send button based on text
+                } else if (!text) { 
+                    showToast('ไม่มีข้อความในคลิปบอร์ด'); 
+                } 
+            } catch (err) { 
+                console.error('Paste error:', err); 
+                showToast('เกิดข้อผิดพลาด: ' + err.name); 
+            } 
+            
+            hideGrids();
+        }
+
+        function convertSimpleMarkdownToHTML(text) {
+            if (!text) return ''; 
+            
+            let html = text;
+            // Handle code blocks
+            html = html.replace(/```(\w*)\n([\s\S]*?)?\n```/gs, (m, l, c) => 
+                `<pre><code class="${l?'language-'+l:''}">${(c||'').replace(/</g,'&lt;').replace(/>/g,'&gt;').trim()}</code></pre>`
+            );
+            
+            // Handle inline code
+            html = html.replace(/`([^`]+)`/g, '<code>$1</code>'); 
+            
+            // Handle bold text
+            html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'); 
+            
+            // Handle italic text
+            html = html.replace(/(?<!\*)\*(?!\*)(.*?)(?<!\*)\*(?!\*)/g, '<em>$1</em>'); 
+            html = html.replace(/(?<!_)_(?!_)(.*?)(?<!_)_(?!_)/g, '<em>$1</em>');
+            
+            // Handle links
+            html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+            
+            // Handle line breaks and lists
+            html = html.split('\n').map(line => { 
+                const T = line.trim(); 
+                if(T.match(/^(<pre|<code|<h[1-6]|<li)/) || T === '') return line; 
+                if(T.match(/^[-*]\s+/)) return line.replace(/^[-*]\s+/,'<li>') + '</li>'; 
+                if(T.match(/^\d+\.\s+/)) return line.replace(/^\d+\.\s+/,'<li>') + '</li>'; 
+                return line + '<br>'; 
+            }).join('');
+            
+            // Clean up unnecessary <br> tags
+            html = html.replace(/<br>\s*<(pre|code|h[1-6]|li)/g,'<$1'); 
+            html = html.replace(/<\/(pre|code|h[1-6]|li)>\s*<br>/g,'</$1>');
+            html = html.replace(/(<br>\s*){2,}/g,'<br>'); 
+            html = html.replace(/^<br>|<br>$/g,''); 
+            
+            return html;
+        }
+
+        function openDocModal(content = null) {
+            let displayContent = content ? content : latestBotResponse; 
+            if (!docModal || !docContent) return;
+            
+            if (!displayContent) { 
+                docContent.innerHTML = "<p style='text-align:center;padding:2rem;color:var(--text-secondary);'>ไม่มีเนื้อหา</p>"; 
+            } else { 
+                docContent.innerHTML = convertSimpleMarkdownToHTML(displayContent); 
+            } 
+            
+            openModal(docModal);
+        }
+
+        function handleGenerateImage() {
+            if (!docModal || !docContent || !generateImageButton || typeof html2canvas === 'undefined') { 
+                showToast("สร้างรูปไม่ได้"); 
+                return; 
+            }
+            
+            showToast("กำลังสร้างรูป...", false); 
+            const btns = docModal.querySelector('.modal-buttons'); 
+            if(btns) btns.style.visibility = 'hidden';
+            
+            setTimeout(() => { 
+                html2canvas(docContent, { 
+                    useCORS: true, 
+                    scale: window.devicePixelRatio || 1.5, 
+                    backgroundColor: getComputedStyle(docModal).getPropertyValue('--chat-bg').trim() || '#ffffff', 
+                    logging: false 
+                }).then(c => { 
+                    const d = new Date(), 
+                          n = `doc_${d.toISOString().slice(0,10)}_${d.getHours()}${d.getMinutes()}${d.getSeconds()}.png`, 
+                          l = document.createElement('a'); 
+                    
+                    l.download = n; 
+                    l.href = c.toDataURL('image/png'); 
+                    l.click(); 
+                    l.remove(); 
+                    
+                    showToast("สร้างรูปสำเร็จ"); 
+                    closeModal(docModal); 
+                }).catch(err => {
+                    console.error('Capture err:', err); 
+                    showToast("สร้างรูปล้มเหลว"); 
+                }).finally(() => { 
+                    if(btns) btns.style.visibility = 'visible'; 
+                }); 
+            }, 100);
+        }
+
+        async function handleFileUpload(event) {
+        const file = event.target.files[0]; 
+        const maxSize = 10 * 1024 * 1024;
+        
+        if (!file) return; 
+        
+        if (!file.type.startsWith('image/')) { 
+            showToast('เลือกรูปภาพเท่านั้น'); 
+            return; 
+        } 
+        
+        if (file.size > maxSize) { 
+            showToast(`ขนาดไฟล์ไม่เกิน ${maxSize/1024/1024}MB`); 
+            return; 
+        } 
+        
+        const reader = new FileReader(); 
+        
+        reader.onload = async function(e) {
+            // แสดงรูปภาพในแชท
+            addMessage(`<img src="${e.target.result}" alt="Uploaded Image" style="max-width:100%; max-height:300px; border-radius:0.5rem; margin-top:0.5rem; display:block; object-fit:contain;">`, true);
+            
+            // ทำ OCR และแสดงผลในแชท
+            showToast("กำลังอ่านรูป...", false);
+            showTypingIndicator();
+            
+            try {
+                const worker = await Tesseract.createWorker('tha+eng');
+                const { data: { text } } = await worker.recognize(e.target.result);
+                await worker.terminate();
+                
+                let cleanedText = text.replace(/\s+/g, ' ').trim();
+                if (cleanedText) {
+                    addMessage(`ข้อความจากรูป:\n${cleanedText}`, false);
+                } else {
+                    addMessage("ไม่พบข้อความในรูป", false);
+                }
+            } catch (error) {
+                console.error('OCR Error:', error);
+                addMessage("เกิดข้อผิดพลาดในการอ่านรูป", false);
+            } finally {
+                hideTypingIndicator();
+            }
+        }; 
+        
+        reader.onerror = () => showToast("อ่านไฟล์ล้มเหลว"); 
+        reader.readAsDataURL(file); 
+        event.target.value = null;
+    }
+
+        // --- Speech Recognition ---
+        function initSpeechRecognition() {
+            if (!micButton) return; 
+            
+            const SR = window.SpeechRecognition || window.webkitSpeechRecognition; 
+            if (!SR) { 
+                console.warn('Speech not supported'); 
+                micButton.disabled = true; 
+                micButton.style.opacity = '0.5'; 
+                micButton.title = 'ไม่รองรับ'; 
+                return; 
+            }
+            
+            recognition = new SR(); 
+            recognition.lang = 'th-TH'; 
+            recognition.interimResults = true; 
+            recognition.maxAlternatives = 1; 
+            let finalTranscript = '';
+            
+            recognition.onstart = () => { 
+                console.log('Speech start'); 
+                micButton.innerHTML = '<i class="fas fa-stop-circle"></i>'; 
+                micButton.style.color = 'var(--secondary-color)'; 
+                isRecording = true; 
+                finalTranscript = ''; 
+                
+                if (messageInput) messageInput.placeholder = 'กำลังฟัง...'; 
+                try { 
+                    new Audio(VOICE_START_SOUND_URL).play(); 
+                } catch(e) {}
+            };
+            
+            recognition.onresult = (event) => { 
+                let interim = ''; 
+                for (let i = event.resultIndex; i < event.results.length; ++i) { 
+                    if (event.results[i].isFinal) { 
+                        finalTranscript += event.results[i][0].transcript; 
+                    } else { 
+                        interim += event.results[i][0].transcript; 
+                    } 
+                } 
+                
+                if (messageInput) {
+                    messageInput.value = finalTranscript + interim; 
+                    toggleSendButton((finalTranscript + interim).trim().length > 0);
+                }
+            };
+            
+            recognition.onend = () => { 
+                console.log('Speech end'); 
+                if (micButton) { 
+                    micButton.innerHTML = '<i class="fas fa-microphone"></i>'; 
+                    micButton.style.color = ''; 
+                } 
+                
+                if (messageInput) messageInput.placeholder = 'พิมพ์ข้อความ...'; 
+                isRecording = false; 
+                
+                if (finalTranscript.trim() && messageInput && messageInput.value.trim() === finalTranscript.trim()) { 
+                    handleSendMessage(); 
+                } 
+                
+                finalTranscript = ''; 
+            };
+            
+            recognition.onerror = (event) => { 
+                console.error('Speech error:', event.error); 
+                let msg = `Speech error: ${event.error}`; 
+                
+                if(event.error === 'no-speech') msg = 'ไม่พบเสียง'; 
+                else if(event.error === 'audio-capture') msg = 'ไม่พบไมค์'; 
+                else if(event.error === 'not-allowed') msg = 'โปรดให้สิทธิ์ไมค์'; 
+                
+                showToast(msg); 
+                
+                if(micButton) {
+                    micButton.innerHTML = '<i class="fas fa-microphone"></i>'; 
+                    micButton.style.color = ''; 
+                } 
+                
+                if(messageInput) messageInput.placeholder = 'พิมพ์ข้อความ...'; 
+                isRecording = false; 
+                finalTranscript = ''; 
+            };
+            
+            micButton.addEventListener('click', () => { 
+                if (!recognition) return; 
+                
+                hideGrids(); 
+                
+                if (isRecording) { 
+                    recognition.stop(); 
+                } else { 
+                    try { 
+                        if(messageInput) messageInput.value = ''; 
+                        finalTranscript = ''; 
+                        recognition.start(); 
+                    } catch (e) { 
+                        showToast("เริ่มอัดเสียงไม่ได้"); 
+                    } 
+                } 
+            });
+        }
+
+        // --- UI Toggles (Grids) ---
+        function showMenuGrid() {
+            if (menuGrid && !menuGrid.classList.contains('open')) { 
+                hideGrids(); 
+                menuGrid.classList.add('open'); 
+                if(menuButton) menuButton.setAttribute('aria-expanded', 'true'); 
+            } else { 
+                hideGrids(); 
+            }
+        }
+
+        function showCommandsGrid() {
+            if (commandsGrid && !commandsGrid.classList.contains('open')) { 
+                hideGrids(); 
+                commandsGrid.classList.add('open'); 
+                if(commandsButton) commandsButton.setAttribute('aria-expanded', 'true'); 
+            } else { 
+                hideGrids(); 
+            }
+        }
+
+        function hideGrids() {
+            let wasOpen = false; 
+            
+            if (menuGrid?.classList.contains('open')) { 
+                menuGrid.classList.remove('open'); 
+                if(menuButton) menuButton.setAttribute('aria-expanded', 'false'); 
+                wasOpen = true; 
+            } 
+            
+            if (commandsGrid?.classList.contains('open')) { 
+                commandsGrid.classList.remove('open'); 
+                if(commandsButton) commandsButton.setAttribute('aria-expanded', 'false'); 
+                wasOpen = true; 
+            } 
+            
+            return wasOpen;
+        }
+
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light'; 
+            const next = current === 'dark' ? 'light' : 'dark'; 
+            
+            document.documentElement.setAttribute('data-theme', next); 
+            
+            if(themeToggle) { 
+                themeToggle.innerHTML = `<i class="fas fa-${next === 'dark' ? 'sun' : 'moon'}"></i>`; 
+                themeToggle.setAttribute('aria-label', next === 'dark' ? 'โหมดสว่าง' : 'โหมดมืด');
+            } 
+            
+            localStorage.setItem('theme', next); 
+            showToast(`เปลี่ยนเป็นโหมด${next === 'dark' ? 'มืด' : 'สว่าง'}`, true, 1500);
+        }
+
+        // --- Toggle Send/Commands Button ---
+        function toggleSendButton(showSend) {
+            if (!commandsButton || !sendButton) return;
+            
+            if (showSend) {
+                commandsButton.style.display = 'none';
+                sendButton.style.display = 'flex';
+            } else {
+                commandsButton.style.display = 'flex';
+                sendButton.style.display = 'none';
+            }
+        }
+
+        // --- Chat Switching ---
+        function switchChatSelection(newIndex) {
+            if (isSubmitting) { 
+                showToast("รอสักครู่...", true, 1500); 
+                return; 
+            } 
+            
+            if (newIndex >= 0 && newIndex < MAX_CHAT_PAGES && newIndex !== currentChatSelection) { 
+                currentChatSelection = newIndex; 
+                initChat(); 
+                hideGrids(); 
+            }
+        }
+
+                function handleSwipe(event) {
+            const diffX = touchStartX - touchEndX; 
+            const threshold = 50; 
+            
+            if (Math.abs(diffX) > threshold) { 
+                hideGrids(); 
+                
+                if (diffX > 0) { 
+                    switchChatSelection((currentChatSelection + 1) % MAX_CHAT_PAGES); 
+                } else { 
+                    switchChatSelection((currentChatSelection - 1 + MAX_CHAT_PAGES) % MAX_CHAT_PAGES); 
+                }
+            }
+        }
+
+        // --- Event Listeners Setup ---
+        function attachEventListeners() {
+            console.log("Attaching event listeners...");
+
+            // Send on Enter Key
+            if (messageInput) {
+                messageInput.addEventListener('keypress', (e) => { 
+                    if (e.key === 'Enter' && !e.shiftKey) { 
+                        e.preventDefault(); 
+                        handleSendMessage(); 
+                    } 
+                });
+                
+                messageInput.addEventListener('input', () => {
+                    hideGrids();
+                    toggleSendButton(messageInput.value.trim().length > 0);
+                });
+                
+                messageInput.addEventListener('focus', hideGrids);
+            } else { 
+                console.error("Message input not found for listener."); 
+            }
+
+            // Header Buttons
+            if (clearChatButton) {
+                clearChatButton.addEventListener('click', clearChat); 
+            } else { 
+                console.error("Clear chat button not found."); 
+            }
+            
+            if (themeToggle) {
+                themeToggle.addEventListener('click', toggleTheme); 
+            } else { 
+                console.error("Theme toggle button not found."); 
+            }
+
+            // Modal Overlay Click
+            if (modalOverlay) {
+                modalOverlay.addEventListener('click', closeAllModals); 
+            } else { 
+                console.error("Modal overlay not found."); 
+            }
+
+            // Input Area Buttons
+            if (attachButton) {
+                attachButton.addEventListener('click', () => fileInput?.click()); 
+            } else { 
+                console.error("Attach button not found."); 
+            }
+            
+            if (fileInput) {
+                fileInput.addEventListener('change', handleFileUpload); 
+            } else { 
+                console.error("File input not found."); 
+            }
+            
+            // Mic button listener attached in initSpeechRecognition
+
+            // Menu/Commands Toggles
+            if (menuButton) { 
+                menuButton.addEventListener('click', showMenuGrid); 
+                menuButton.setAttribute('aria-haspopup', 'true'); 
+                menuButton.setAttribute('aria-expanded', 'false'); 
+            } else { 
+                console.error("Menu button not found."); 
+            }
+            
+            if (commandsButton) { 
+                commandsButton.addEventListener('click', showCommandsGrid); 
+                commandsButton.setAttribute('aria-haspopup', 'true'); 
+                commandsButton.setAttribute('aria-expanded', 'false'); 
+            } else { 
+                console.error("Commands button not found."); 
+            }
+
+            // Menu Grid Buttons
+            if (homeButton) {
+                homeButton.addEventListener('click', () => { 
+                    if(mainHomeModal) openModal(mainHomeModal); 
+                    hideGrids(); 
+                });
+            }
+            
+            if (articleButton) {
+                articleButton.addEventListener('click', () => { 
+                    if(articleModal) openModal(articleModal); 
+                    hideGrids(); 
+                });
+            }
+            
+            if (generateDocButton) {
+                generateDocButton.addEventListener('click', () => { 
+                    openDocModal(); 
+                    hideGrids(); 
+                });
+            }
+            
+            if (copyButton) {
+                copyButton.addEventListener('click', handleCopyText);
+            }
+            
+            if (pasteButton) {
+                pasteButton.addEventListener('click', handlePasteText);
+            }
+            
+            if (clearAllButton) {
+                clearAllButton.addEventListener('click', clearAllAndRefresh);
+            }
+
+            // Commands Grid Suggestion Buttons
+            if (commandsGrid) {
+                commandsGrid.querySelectorAll('.suggestion-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const command = btn.dataset.command;
+                        if (command && messageInput && !isSubmitting) { 
+                            messageInput.value = command; 
+                            handleSendMessage(); 
+                        } else if (isSubmitting) { 
+                            showToast("รอสักครู่...", true, 1500); 
+                        }
+                    });
+                });
+            } else { 
+                console.error("Commands grid not found."); 
+            }
+
+            // Modal Close Buttons
+            if (closeDocModal) {
+                closeDocModal.addEventListener('click', () => closeModal(docModal));
+            }
+            
+            if (generateImageButton) {
+                generateImageButton.addEventListener('click', handleGenerateImage);
+            }
+            
+            if (closeMoreInfoModal) {
+                closeMoreInfoModal.addEventListener('click', () => closeModal(moreInfoModal));
+            }
+            
+            if (closeHomeModal) {
+                closeHomeModal.addEventListener('click', () => closeModal(mainHomeModal));
+            }
+            
+            if (closeArticleModal) {
+                closeArticleModal.addEventListener('click', () => closeModal(articleModal));
+            }
+            
+            if (closeCommandModal) {
+                closeCommandModal.addEventListener('click', () => closeModal(commandModal));
+            }
+            
+            if (closeSendDocModal) {
+                closeSendDocModal.addEventListener('click', () => closeModal(sendDocModal));
+            }
+
+            // Swipe Listeners
+            if (chatContainer) {
+                let touchStartY = 0;
+                
+                chatContainer.addEventListener('touchstart', (e) => { 
+                    touchStartX = e.changedTouches[0].screenX; 
+                    touchStartY = e.changedTouches[0].screenY; 
+                }, { passive: true });
+                
+                chatContainer.addEventListener('touchend', (e) => { 
+                    touchEndX = e.changedTouches[0].screenX; 
+                    const touchEndY = e.changedTouches[0].screenY; 
+                    
+                    if (Math.abs(touchStartX - touchEndX) > Math.abs(touchStartY - touchEndY) + 20) { 
+                        handleSwipe(e); 
+                    }
+                });
+            } else { 
+                console.error("Chat container not found for swipe."); 
+            }
+
+            // Hide Grids on Click Outside
+            document.body.addEventListener('click', (event) => {
+                const target = event.target;
+                const isGridOpen = menuGrid?.classList.contains('open') || commandsGrid?.classList.contains('open');
+                
+                if (isGridOpen && 
+                    !menuButton?.contains(target) && 
+                    !commandsButton?.contains(target) && 
+                    !menuGrid?.contains(target) && 
+                    !commandsGrid?.contains(target)) { 
+                    hideGrids(); 
+                }
+            }, true);
+
+            // ESC key listener
+            document.addEventListener('keydown', (event) => { 
+                if (event.key === 'Escape') { 
+                    if (!closeAllModals()) { 
+                        hideGrids(); 
+                    } 
+                } 
+            });
+
+            // Send button listener
+            if (sendButton) {
+                sendButton.addEventListener('click', () => {
+                    handleSendMessage();
+                    toggleSendButton(false);
+                });
+            }
+
+            console.log("Event listeners attached.");
+        }
+
+        // --- Start the Application ---
+        initApp(); 
+
+}); // End DOMContentLoaded 
+
+} catch (error) {
+    console.error("Critical error initializing the script:", error);
+    // Display error to user if possible
+    const body = document.body;
+    if (body) {
+        const errorDiv = document.createElement('div');
+        errorDiv.style.position = 'fixed';
+        errorDiv.style.top = '10px';
+        errorDiv.style.left = '10px';
+        errorDiv.style.padding = '10px';
+        errorDiv.style.backgroundColor = 'red';
+        errorDiv.style.color = 'white';
+        errorDiv.style.zIndex = '10000';
+        errorDiv.textContent = 'เกิดข้อผิดพลาดร้ายแรงในการโหลดแชท: ' + error.message;
+        body.appendChild(errorDiv);
+    }
+}
+//]]>
+</script>
+</body>
+</html>
